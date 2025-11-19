@@ -63,6 +63,7 @@ export default function Sidebar({ dark, setDark }) {
           <a
             href="https://github.com/Himanip04"
             target="_blank"
+            rel="noreferrer"
             className={`text-lg ${dark ? "text-[#bdaaff] hover:text-white" : "text-[#6e4f2a] hover:text-black"}`}
           >
             GitHub
@@ -71,6 +72,7 @@ export default function Sidebar({ dark, setDark }) {
           <a
             href="https://www.linkedin.com/in/himani-pant-982a67223/"
             target="_blank"
+            rel="noreferrer"
             className={`text-lg ${dark ? "text-[#bdaaff] hover:text-white" : "text-[#6e4f2a] hover:text-black"}`}
           >
             LinkedIn
